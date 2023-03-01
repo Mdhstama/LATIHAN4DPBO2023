@@ -5,10 +5,10 @@ class Prodi():
     # atribut privat
     __kodeProdi = ""
     __namaProdi = ""
-    __courseA = Course()
+    __courseA = [Course()]
     
     # constructor
-    def __init__(self, kodeProdi = "", namaProdi = "", courseA = Course()):
+    def __init__(self, kodeProdi = "", namaProdi = "", courseA = [Course()]):
         self.__kodeProdi = kodeProdi
         self.__namaProdi = namaProdi
         self.__courseA = courseA
@@ -30,3 +30,11 @@ class Prodi():
     
     def setCourseA(self, courseA):
         self.__courseA = courseA
+    
+    def printProdi(self):
+        print("Kode             : " + str(self.getKodeProdi()))
+        print("Nama             : " + str(self.getNamaProdi()))
+        print("Course           : ")
+        for i in range (len(self.__courseA)):
+            print(str(i+1) + ") ", end="")
+            print((self.__courseA[i].getNamaMatkul()))
