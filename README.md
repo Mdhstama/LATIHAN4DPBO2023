@@ -4,7 +4,7 @@
 
 **GAMBAR DESAIN**
 
-![LP3-Page-2 drawio](https://user-images.githubusercontent.com/99590350/222053600-cabb081d-2004-485f-8992-f119844d1a92.png)
+![LP3 FInal](https://user-images.githubusercontent.com/99590350/222099500-2edf5590-560b-40b5-a9b4-ce4655e63864.png)
 
 **PENJELASAN DESAIN**
 
@@ -14,10 +14,15 @@
     b) Data fakultas pada Mahasiswa dan Dosen dinaikkan ke Civitas karena setiap Mahasiswa dan Dosen mempunyai tempat fakultas yang mereka kontrak
 - Prodi merupakan composite dari Mahasisa dan Dosen
     a) Karena setiap Mahasiswa dan Dosen mempunyai Program Studi yang mereka kontrak
-- Course merupakan composite dari Prodi
+- Course merupakan composite dari Prodi, Mahasiswa, dan Dosen
     a) Karena setiap prodi mempunyai mata kuliah yang diberikan
+    b) Karena mahasiswa mempunyai mata kuliah yang harus dikontrak
+    c) Karena dosen mempunyai mata kuliah untuk mengajar
 
 **HASIL COMPILER**
 
-![image](https://user-images.githubusercontent.com/99590350/222066185-16ffdbb5-e89e-403f-bb79-fa3d635e63a9.png)
+![image](https://user-images.githubusercontent.com/99590350/222099614-c9f8dce3-52c7-4a54-8194-6fc884b4e65c.png)
 
+![image](https://user-images.githubusercontent.com/99590350/222099641-c13b8a80-c909-4398-8ea7-2794c57f5dfb.png)
+
+![image](https://user-images.githubusercontent.com/99590350/222099685-d5350c75-1670-4aee-95ed-69af976d1c75.png)
