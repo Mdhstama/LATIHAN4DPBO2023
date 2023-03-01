@@ -8,8 +8,16 @@
 
 **PENJELASAN DESAIN**
 
+- Human adalah parent dari Civitas
+- Civitas adalah parent dari Mahasiswa dan Dosen
+    a) Data umum (nama, gender, nik) dalam Mahasiswa dan Dosen dinaikkan ke class Human
+    b) Data fakultas pada Mahasiswa dan Dosen dinaikkan ke Civitas karena setiap Mahasiswa dan Dosen mempunyai tempat fakultas yang mereka kontrak
+- Prodi merupakan composite dari Mahasisa dan Dosen
+    a) Karena setiap Mahasiswa dan Dosen mempunyai Program Studi yang mereka kontrak
+- Course merupakan composite dari Prodi
+    a) Karena setiap prodi mempunyai mata kuliah yang diberikan
 
 **HASIL COMPILER**
 
-![image](https://user-images.githubusercontent.com/99590350/222065762-82c2c7d4-215c-4d2f-b89a-93b2596a174b.png)
+![image](https://user-images.githubusercontent.com/99590350/222066185-16ffdbb5-e89e-403f-bb79-fa3d635e63a9.png)
 
