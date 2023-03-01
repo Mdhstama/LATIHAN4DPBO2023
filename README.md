@@ -10,14 +10,14 @@
 
 - Human adalah parent dari Civitas
 - Civitas adalah parent dari Mahasiswa dan Dosen
-    a) Data umum (nama, gender, nik) dalam Mahasiswa dan Dosen dinaikkan ke class Human
-    b) Data fakultas pada Mahasiswa dan Dosen dinaikkan ke Civitas karena setiap Mahasiswa dan Dosen mempunyai tempat fakultas yang mereka kontrak
+    1. Data umum (nama, gender, nik) dalam Mahasiswa dan Dosen dinaikkan ke class Human
+    2. Data fakultas pada Mahasiswa dan Dosen dinaikkan karena keduanya mempunyai atribut yang sama sehigga digabung saja ke Civitas
 - Prodi merupakan composite dari Mahasisa dan Dosen
-    a) Karena setiap Mahasiswa dan Dosen mempunyai Program Studi yang mereka kontrak
+    1. Karena setiap Mahasiswa dan Dosen mempunyai Program Studi yang mereka kontrak
 - Course merupakan composite dari Prodi, Mahasiswa, dan Dosen
-    a) Karena setiap prodi mempunyai mata kuliah yang diberikan
-    b) Karena mahasiswa mempunyai mata kuliah yang harus dikontrak
-    c) Karena dosen mempunyai mata kuliah untuk mengajar
+    1. Karena setiap prodi mempunyai mata kuliah yang diberikan
+    2. Karena mahasiswa mempunyai mata kuliah yang harus dikontrak
+    3. Karena dosen mempunyai mata kuliah untuk mengajar
 
 **HASIL COMPILER**
 
